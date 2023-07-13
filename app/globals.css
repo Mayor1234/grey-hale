@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.hero-bg {
+  background-image: url(../public/images/hero.jpg);
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -25,3 +29,21 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.burgundy-gradient {
+  background: #d96076;
+  background: -webkit-linear-gradient(0deg, #d96076 0%, #80002a 100%);
+  background: linear-gradient(0deg, #d96076 0%, #80002a 100%);
+}
+
+/* .slick-slider {
+  margin: 0 -15px;
+} */
+
+/* .slick-slide {
+  margin-left: 20px;
+}
+
+.slick-list [data-slick-index='0'] {
+  margin-left: 0;
+} */

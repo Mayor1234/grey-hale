@@ -1,0 +1,171 @@
+import indus1 from '../../../public/assets/industial/IMG_4866.jpg';
+import indus2 from '../../../public/assets/industial/IMG_4867.jpg';
+import indus3 from '../../../public/assets/industial/IMG_4868.jpg';
+import indus4 from '../../../public/assets/industial/IMG_4871.jpg';
+import indus5 from '../../../public/assets/industial/IMG_4872.jpg';
+import indus6 from '../../../public/assets/industial/indus1.jpg';
+import minim1 from '../../../public/assets/minimalist/IMG_4733.jpg';
+import minim2 from '../../../public/assets/minimalist/IMG_4738.jpg';
+import minim3 from '../../../public/assets/minimalist/IMG_4739.jpg';
+import minim4 from '../../../public/assets/minimalist/IMG_4740.jpg';
+import minim5 from '../../../public/assets/minimalist/IMG_4741.jpg';
+import minim6 from '../../../public/assets/minimalist/IMG_4742.jpg';
+import minim7 from '../../../public/assets/minimalist/IMG_4743.jpg';
+import minim8 from '../../../public/assets/minimalist/IMG_4747.jpg';
+import minim9 from '../../../public/assets/minimalist/IMG_4748.jpg';
+import minim11 from '../../../public/assets/minimalist/mini1.jpg';
+import minim12 from '../../../public/assets/minimalist/mini2.jpg';
+
+import conte1 from '../../../public/assets/contemporary/IMG_4816.jpg';
+import conte2 from '../../../public/assets/contemporary/IMG_4818.jpg';
+import conte3 from '../../../public/assets/contemporary/IMG_4819.jpg';
+import conte4 from '../../../public/assets/contemporary/IMG_4820.jpg';
+import conte5 from '../../../public/assets/contemporary/IMG_4821.jpg';
+import conte6 from '../../../public/assets/contemporary/IMG_4822.jpg';
+import conte7 from '../../../public/assets/contemporary/IMG_4843.jpg';
+import conte8 from '../../../public/assets/contemporary/contem1.jpg';
+
+import modern1 from '../../../public/assets/modern/IMG_4823.jpg';
+import modern2 from '../../../public/assets/modern/IMG_4824.jpg';
+import modern3 from '../../../public/assets/modern/IMG_4825.jpg';
+import modern4 from '../../../public/assets/modern/IMG_4826.jpg';
+import modern5 from '../../../public/assets/modern/IMG_4827.jpg';
+import modern6 from '../../../public/assets/modern/IMG_4828.jpg';
+import modern7 from '../../../public/assets/modern/IMG_4829.jpg';
+import modern8 from '../../../public/assets/modern/IMG_4830.jpg';
+import modern9 from '../../../public/assets/modern/IMG_4839.jpg';
+
+import boh1 from '../../../public/assets/bohomian/IMG_4713.jpg';
+import boh2 from '../../../public/assets/bohomian/IMG_4714.jpg';
+import boh3 from '../../../public/assets/bohomian/IMG_4715.jpg';
+import boh4 from '../../../public/assets/bohomian/IMG_4717.jpg';
+import boh5 from '../../../public/assets/bohomian/IMG_4718.jpg';
+import boh6 from '../../../public/assets/bohomian/IMG_4722.jpg';
+import boh7 from '../../../public/assets/bohomian/IMG_4725.jpg';
+import boh8 from '../../../public/assets/bohomian/IMG_4727.jpg';
+import boh9 from '../../../public/assets/bohomian/IMG_4728.jpg';
+
+import zen1 from '../../../public/assets/zen/IMG_4913.jpg';
+import zen2 from '../../../public/assets/zen/IMG_4914.jpg';
+import zen3 from '../../../public/assets/zen/IMG_4915.jpg';
+import zen4 from '../../../public/assets/zen/IMG_4917.jpg';
+import zen5 from '../../../public/assets/zen/IMG_4920.jpg';
+import zen6 from '../../../public/assets/zen/IMG_4921.jpg';
+import zen7 from '../../../public/assets/zen/IMG_4922.jpg';
+import zen8 from '../../../public/assets/zen/IMG_4924.jpg';
+import zen9 from '../../../public/assets/zen/IMG_4926.jpg';
+import zen10 from '../../../public/assets/zen/IMG_4927.jpg';
+import zen11 from '../../../public/assets/zen/IMG_4928.jpg';
+import zen12 from '../../../public/assets/zen/IMG_4929.jpg';
+
+import afri1 from '../../../public/assets/african/IMG_4689.jpg';
+import afri2 from '../../../public/assets/african/IMG_4690.jpg';
+import afri3 from '../../../public/assets/african/IMG_4691.jpg';
+import afri4 from '../../../public/assets/african/IMG_4692.jpg';
+import afri5 from '../../../public/assets/african/IMG_4696.jpg';
+import afri6 from '../../../public/assets/african/IMG_4700.jpg';
+import afri7 from '../../../public/assets/african/IMG_4701.jpg';
+import afri8 from '../../../public/assets/african/IMG_4705.jpg';
+import afri9 from '../../../public/assets/african/IMG_4707.jpg';
+import afri10 from '../../../public/assets/african/IMG_4708.jpg';
+import afri11 from '../../../public/assets/african/IMG_4709.jpg';
+import afri12 from '../../../public/assets/african/IMG_4710.jpg';
+
+import rus1 from '../../../public/assets/rustic/IMG_4845.jpg';
+import rus2 from '../../../public/assets/rustic/IMG_4847.jpg';
+import rus3 from '../../../public/assets/rustic/IMG_4848.jpg';
+import rus4 from '../../../public/assets/rustic/IMG_4851.jpg';
+import rus5 from '../../../public/assets/rustic/IMG_4852.jpg';
+import rus6 from '../../../public/assets/rustic/IMG_4853.jpg';
+import rus7 from '../../../public/assets/rustic/IMG_4854.jpg';
+import rus8 from '../../../public/assets/rustic/IMG_4855.jpg';
+import rus9 from '../../../public/assets/rustic/IMG_4856.jpg';
+import rus10 from '../../../public/assets/rustic/IMG_4858.jpg';
+import rus11 from '../../../public/assets/rustic/IMG_4857.jpg';
+
+export const exploreData = [
+  { img: indus1 },
+  { img: minim1 },
+  { img: modern1 },
+  { img: modern2 },
+  { img: minim2 },
+  { img: modern3 },
+  { img: indus2 },
+  { img: modern4 },
+  { img: minim3 },
+  { img: modern5 },
+  { img: indus3 },
+  { img: modern6 },
+  { img: minim4 },
+  { img: modern7 },
+  { img: indus4 },
+  { img: modern8 },
+  { img: minim5 },
+  { img: modern9 },
+  { img: indus5 },
+  { img: minim6 },
+  { img: minim7 },
+  { img: minim8 },
+  { img: indus6 },
+  { img: minim9 },
+  { img: minim11 },
+  { img: minim12 },
+  { img: zen10 },
+  { img: afri12 },
+];
+
+export const exploreData2 = [
+  { img: conte1 },
+  { img: boh1 },
+  { img: conte2 },
+  { img: boh2 },
+  { img: zen1 },
+  { img: conte3 },
+  { img: boh3 },
+  { img: zen2 },
+  { img: conte4 },
+  { img: boh4 },
+  { img: zen3 },
+  { img: conte5 },
+  { img: boh5 },
+  { img: zen4 },
+  { img: conte6 },
+  { img: boh6 },
+  { img: zen5 },
+  { img: conte7 },
+  { img: boh7 },
+  { img: zen6 },
+  { img: conte8 },
+  { img: zen7 },
+  { img: boh8 },
+  { img: zen8 },
+  { img: boh9 },
+  { img: zen9 },
+  { img: zen11 },
+  { img: zen12 },
+  { img: rus11 },
+];
+
+export const exploreData3 = [
+  { img: afri1 },
+  { img: rus1 },
+  { img: afri2 },
+  { img: rus2 },
+  { img: afri3 },
+  { img: rus3 },
+  { img: afri4 },
+  { img: rus4 },
+  { img: afri5 },
+  { img: rus5 },
+  { img: afri6 },
+  { img: rus6 },
+  { img: afri7 },
+  { img: rus7 },
+  { img: afri8 },
+  { img: rus8 },
+  { img: afri9 },
+  { img: rus9 },
+  { img: afri10 },
+  { img: rus10 },
+  { img: afri11 },
+];
